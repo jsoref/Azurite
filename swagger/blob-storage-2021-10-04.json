@@ -6102,7 +6102,7 @@
         ],
         "responses": {
           "201": {
-            "description": "The snaptshot was taken successfully.",
+            "description": "The snapshot was taken successfully.",
             "headers": {
               "x-ms-snapshot": {
                 "x-ms-client-name": "Snapshot",
