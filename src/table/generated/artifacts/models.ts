@@ -1246,7 +1246,7 @@ export enum DataServiceVersion2 {
  * Defines values for DataServiceVersion3.
  * Possible values include: '3.0'
  * Changing all table batch related logic to point to this version
- * becuase the other versions seem redundant and are complicating the code
+ * because the other versions seem redundant and are complicating the code
  * unnecessarily
  * @readonly
  * @enum {string}
