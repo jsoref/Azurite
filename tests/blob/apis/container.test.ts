@@ -303,7 +303,7 @@ describe("ContainerAPIs", () => {
           includeDeleted: true,
           includeMetadata: true,
           includeSnapshots: true,
-          includeUncommitedBlobs: true,
+          includeUncommittedBlobs: true,
           prefix
         })
         .byPage({ maxPageSize: 1 })
@@ -326,7 +326,7 @@ describe("ContainerAPIs", () => {
           includeDeleted: true,
           includeMetadata: true,
           includeSnapshots: true,
-          includeUncommitedBlobs: true,
+          includeUncommittedBlobs: true,
           prefix
         })
         .byPage({
@@ -350,7 +350,7 @@ describe("ContainerAPIs", () => {
           includeDeleted: true,
           includeMetadata: true,
           includeSnapshots: true,
-          includeUncommitedBlobs: true,
+          includeUncommittedBlobs: true,
           prefix: `${prefix}0${delimiter}`
         })
         .byPage({ maxPageSize: 2 })
@@ -563,7 +563,7 @@ describe("ContainerAPIs", () => {
     }
   });
 
-  // TODO: azure/storage-blob 12.9.0 will fail on  list uncimmited blob from container, will skip the case until this is fix in SDK or Azurite
+  // TODO: azure/storage-blob 12.9.0 will fail on  list uncommitted blob from container, will skip the case until this is fix in SDK or Azurite
   it.skip("should only show uncommitted blobs in listBlobFlatSegment with uncommittedblobs option @loki @sql", async () => {
     const blobClient = containerClient.getBlobClient(
       getUniqueName("uncommittedblob")
@@ -576,7 +576,7 @@ describe("ContainerAPIs", () => {
     const result1 = (
       await containerClient
         .listBlobsFlat({
-          includeUncommitedBlobs: true
+          includeUncommittedBlobs: true
         })
         .byPage()
         .next()
@@ -601,7 +601,7 @@ describe("ContainerAPIs", () => {
     const result1 = (
       await containerClient
         .listBlobsByHierarchy(delimiter, {
-          includeUncommitedBlobs: true
+          includeUncommittedBlobs: true
         })
         .byPage()
         .next()
@@ -1121,7 +1121,7 @@ describe("ContainerAPIs", () => {
     assert.ok(result);
     assert.equal(result.segment.blobItems.length, 4);
 
-    // list with  mutiple include
+    // list with  multiple include
     // create container client for 
     pipeline = newPipeline(
       new AnonymousCredential(),
@@ -1138,7 +1138,7 @@ describe("ContainerAPIs", () => {
 
     ContainerClientForOptions = serviceClientForOptions.getContainerClient(containerName);
 
-    // list blob with  mutiple include
+    // list blob with  multiple include
     result = (
       await ContainerClientForOptions
         .listBlobsFlat({
@@ -1151,7 +1151,7 @@ describe("ContainerAPIs", () => {
     assert.equal(result.segment.blobItems.length, 4);
   });
 
-  // Skip the case currently since js sdk caculate the stringToSign with "+" in prefix instead of decode to space
+  // Skip the case currently since js sdk calculate the stringToSign with "+" in prefix instead of decode to space
   it.skip("List blob should success with '+' in query @loki @sql", async () => {
     const blobClients = [];
     let blobNames: Array<string> = [

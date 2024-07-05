@@ -5828,7 +5828,7 @@ export const BlobAbortCopyFromURLHeaders: msRest.CompositeMapper = {
 };
 
 export const BlobSetTierHeaders: msRest.CompositeMapper = {
-  serializedName: "blob-settier-headers",
+  serializedName: "blob-setter-headers",
   type: {
     name: "Composite",
     className: "BlobSetTierHeaders",

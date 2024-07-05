@@ -34,7 +34,7 @@ export default class BlobReferredExtentsAsyncIterator
         undefined,
         this.blobListingMarker,
         true, // includeSnapshots
-        true // includeUncommitedBlobs
+        true // includeUncommittedBlobs
       );
       this.blobListingMarker = marker;
       if (marker === undefined) {

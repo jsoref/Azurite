@@ -991,7 +991,7 @@
               },
               "x-ms-deny-encryption-scope-override": {
                 "x-ms-client-name": "DenyEncryptionScopeOverride",
-                "description": "Indicates whether the container's default encryption scope can be overriden.",
+                "description": "Indicates whether the container's default encryption scope can be overridden.",
                 "type": "boolean"
               },
               "x-ms-immutable-storage-with-versioning-enabled": {
@@ -1145,7 +1145,7 @@
               },
               "x-ms-deny-encryption-scope-override": {
                 "x-ms-client-name": "DenyEncryptionScopeOverride",
-                "description": "Indicates whether the container's default encryption scope can be overriden.",
+                "description": "Indicates whether the container's default encryption scope can be overridden.",
                 "type": "boolean"
               },
               "x-ms-immutable-storage-with-versioning-enabled": {
@@ -6102,7 +6102,7 @@
         ],
         "responses": {
           "201": {
-            "description": "The snaptshot was taken successfully.",
+            "description": "The snapshot was taken successfully.",
             "headers": {
               "x-ms-snapshot": {
                 "x-ms-client-name": "Snapshot",
