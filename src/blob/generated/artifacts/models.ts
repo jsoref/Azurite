@@ -3706,7 +3706,7 @@ export interface ContainerGetPropertiesHeaders {
    */
   defaultEncryptionScope?: string;
   /**
-   * Indicates whether the container's default encryption scope can be overriden.
+   * Indicates whether the container's default encryption scope can be overridden.
    */
   denyEncryptionScopeOverride?: boolean;
   /**
@@ -3784,7 +3784,7 @@ export interface ContainerGetPropertiesWithHeadHeaders {
    */
   defaultEncryptionScope?: string;
   /**
-   * Indicates whether the container's default encryption scope can be overriden.
+   * Indicates whether the container's default encryption scope can be overridden.
    */
   denyEncryptionScopeOverride?: boolean;
   /**
