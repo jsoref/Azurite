@@ -330,7 +330,7 @@ export interface AzuriteServerQueueOptions {
  */
 export interface ServiceSetPropertiesOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -347,7 +347,7 @@ export interface ServiceSetPropertiesOptionalParams {
  */
 export interface ServiceGetPropertiesOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -364,7 +364,7 @@ export interface ServiceGetPropertiesOptionalParams {
  */
 export interface ServiceGetStatisticsOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -407,7 +407,7 @@ export interface ServiceListQueuesSegmentOptionalParams {
    */
   include?: ListQueuesIncludeType[];
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -424,7 +424,7 @@ export interface ServiceListQueuesSegmentOptionalParams {
  */
 export interface QueueCreateOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -449,7 +449,7 @@ export interface QueueCreateOptionalParams {
  */
 export interface QueueDeleteMethodOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -466,7 +466,7 @@ export interface QueueDeleteMethodOptionalParams {
  */
 export interface QueueGetPropertiesOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -483,7 +483,7 @@ export interface QueueGetPropertiesOptionalParams {
  */
 export interface QueueGetPropertiesWithHeadOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -500,7 +500,7 @@ export interface QueueGetPropertiesWithHeadOptionalParams {
  */
 export interface QueueSetMetadataOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -525,7 +525,7 @@ export interface QueueSetMetadataOptionalParams {
  */
 export interface QueueGetAccessPolicyOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -542,7 +542,7 @@ export interface QueueGetAccessPolicyOptionalParams {
  */
 export interface QueueGetAccessPolicyWithHeadOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -563,7 +563,7 @@ export interface QueueSetAccessPolicyOptionalParams {
    */
   queueAcl?: SignedIdentifier[];
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -594,7 +594,7 @@ export interface MessagesDequeueOptionalParams {
    */
   visibilitytimeout?: number;
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -611,7 +611,7 @@ export interface MessagesDequeueOptionalParams {
  */
 export interface MessagesClearOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -643,7 +643,7 @@ export interface MessagesEnqueueOptionalParams {
    */
   messageTimeToLive?: number;
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -666,7 +666,7 @@ export interface MessagesPeekOptionalParams {
    */
   numberOfMessages?: number;
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -683,7 +683,7 @@ export interface MessagesPeekOptionalParams {
  */
 export interface MessageIdUpdateOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
@@ -700,7 +700,7 @@ export interface MessageIdUpdateOptionalParams {
  */
 export interface MessageIdDeleteMethodOptionalParams {
   /**
-   * The The timeout parameter is expressed in seconds. For more information, see <a
+   * The timeout parameter is expressed in seconds. For more information, see <a
    * href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
    * Timeouts for Queue Service Operations.</a>
    */
