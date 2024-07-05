@@ -303,7 +303,7 @@ describe("ContainerAPIs", () => {
           includeDeleted: true,
           includeMetadata: true,
           includeSnapshots: true,
-          includeUncommitedBlobs: true,
+          includeUncommittedBlobs: true,
           prefix
         })
         .byPage({ maxPageSize: 1 })
@@ -326,7 +326,7 @@ describe("ContainerAPIs", () => {
           includeDeleted: true,
           includeMetadata: true,
           includeSnapshots: true,
-          includeUncommitedBlobs: true,
+          includeUncommittedBlobs: true,
           prefix
         })
         .byPage({
@@ -350,7 +350,7 @@ describe("ContainerAPIs", () => {
           includeDeleted: true,
           includeMetadata: true,
           includeSnapshots: true,
-          includeUncommitedBlobs: true,
+          includeUncommittedBlobs: true,
           prefix: `${prefix}0${delimiter}`
         })
         .byPage({ maxPageSize: 2 })
@@ -576,7 +576,7 @@ describe("ContainerAPIs", () => {
     const result1 = (
       await containerClient
         .listBlobsFlat({
-          includeUncommitedBlobs: true
+          includeUncommittedBlobs: true
         })
         .byPage()
         .next()
@@ -601,7 +601,7 @@ describe("ContainerAPIs", () => {
     const result1 = (
       await containerClient
         .listBlobsByHierarchy(delimiter, {
-          includeUncommitedBlobs: true
+          includeUncommittedBlobs: true
         })
         .byPage()
         .next()
